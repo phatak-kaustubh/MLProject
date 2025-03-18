@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "MLProject"
+version = "0.1.0"
+description = "A simple ML Project"
+authors = [
+    {name = "Kaustubh", email = "k08phatak@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = [
+    "scikit-learn>=1.0",
+    "pandas",
+    "numpy"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/phatak-kaustubh/MLProject"
